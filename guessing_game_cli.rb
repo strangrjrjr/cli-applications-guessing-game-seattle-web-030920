@@ -1,9 +1,7 @@
 # Code your solution here!
 def run_guessing_game
   num = rand(6) + 1
-  #puts "Enter your choice: "
   guess = gets.chomp
-  puts guess
   if guess == 'exit'
     puts 'Goodbye!'
   elsif guess == num

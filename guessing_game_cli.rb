@@ -6,6 +6,7 @@ def run_guessing_game
   
   if guess == num
     puts "You guessed the correct number!"
+    puts "#{guess} = #{num}"
   elsif guess == 'exit'
     puts "Goodbye!"    
   else
